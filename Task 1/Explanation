@@ -1,0 +1,35 @@
+// QI. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+
+->
+
+The CSS Flexbox and Grid layout models are both powerful tools for creating responsive web designs, but they have different use cases and strengths:
+
+### CSS Flexbox
+**Main Differences:**
+1. **Axis-Oriented:** Flexbox is designed for one-dimensional layouts, either a row or a column. It excels at aligning items along one axis at a time.
+2. **Alignment and Distribution:** Flexbox provides strong support for aligning and distributing items within a container, including centering, space-between, space-around, and more.
+3. **Flexibility:** Flex items can grow or shrink to fit the available space, making it easier to create responsive designs without media queries.
+4. **Order:** The order of items can be changed independently of their position in the source code.
+
+**When to Use:**
+- When you need to align items along a single axis (either horizontally or vertically).
+- For small-scale layouts like navigation bars, buttons, or aligning elements within a component.
+- When items need to dynamically adjust their size to fit the container.
+
+### CSS Grid
+**Main Differences:**
+1. **Two-Dimensional:** Grid is designed for two-dimensional layouts, both rows and columns. It can handle more complex layouts with ease.
+2. **Grid Areas:** Grid allows for the creation of grid areas that can span multiple rows and columns, enabling more complex and precise positioning.
+3. **Explicit Placement:** Grid provides extensive control over item placement, using grid lines, grid template areas, and fractional units.
+4. **Overlapping Items:** Grid can easily handle overlapping items by placing elements in the same grid cell.
+
+**When to Use:**
+- For complex, two-dimensional layouts, such as web page layouts with headers, sidebars, and footers.
+- When you need precise control over both horizontal and vertical alignment.
+- For large-scale layouts where you want to define a structure with rows and columns.
+
+### Choosing Between Flexbox and Grid
+- **Flexbox:** Use Flexbox when you need to design a layout in one dimension. It's ideal for arranging items in a row or column, and when the relationship between items is simple.
+- **Grid:** Use Grid when you need a more complex layout that requires aligning items in both dimensions. Grid is suitable for web page layouts with multiple sections, and when you need more control over item placement and alignment.
+
+In practice, many layouts will benefit from using both Flexbox and Grid together. For instance, you might use Grid to define the overall page structure and Flexbox within individual components for alignment and spacing.

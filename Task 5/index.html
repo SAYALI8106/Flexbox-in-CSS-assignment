@@ -1,0 +1,105 @@
+<!-- Q5. build a clone of the IRCTC Ticket booking page-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+    <div class="grid grid-cols-2 ">
+        <div class="px-12">
+            <div class="flex justify-between  mt-8">
+                <div class="flex"><img src="	https://www.irctc.co.in/nget/assets/images/logo.png" alt="">
+                    <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="">
+                </div>
+                <div class="flex flex-col gap-2 items-center justify-center">
+                    <ul class="flex items-center justify-center gap-4">
+                        <li>Ask Disha</li>
+                        <li>Contact us</li>
+                        <li>Alerts</li>
+                    </ul>
+                    <ul class="flex items-center justify-center gap-4">
+                        <li><button class="bg-orange-600 text-white border border-orange-400 rounded-sm px-1">Login</button></li>
+                        <li><button class="bg-white border border-gray-400 rounded-sm px-1">Register</button></li>
+                        <li><button class="bg-white border border-gray-400 rounded-sm px-1">Agent Login</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col mt-10 gap-2">
+                <h1 class="text-2xl font-bold">Indian Railways</h1>
+                <div class="flex items-center gap-2 ">
+                    <span class="text-xl text-green-600">Safety</span>
+                    <span class="text-xl text-orange-600">Security</span>
+                    <span class="text-xl text-blue-900">Punctuality</span>
+                </div>
+            </div>
+            <!-- buttons -->
+             <div class="mt-10 flex items-center gap-2">
+                <button class="flex items-center gap-2 bg-blue-900 px-2 py-1 border rounded"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 4H18M4 11H20M3 18L21 18M9.0002 3.00005L4.00009 21M20 21L15 3" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><span class="text-white text-sm font-semibold">BOOK Ticket</span></button>
+                <button class="flex items-center gap-2 bg-white px-2 py-1 border rounded"><svg class="w-4 h-4" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.5 12.5L10.167 17L19.5 8" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><span class="text-sm font-semibold">PNR Status</span></button>
+                <button class="flex items-center gap-2 bg-white px-2 py-1 border rounded"><svg class="w- h-4" fill="#000000" viewBox="0 -8 72 72" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>bar-chart</title> <g id="Layer_5" data-name="Layer 5"> <path d="M61,49.12c0,1-.27,1.88-1.57,1.88H13.35A2.36,2.36,0,0,1,11,48.65V5.22c0-1.3.85-1.57,1.88-1.57s1.88.27,1.88,1.57V44.89a2.36,2.36,0,0,0,2.35,2.35H59.43C60.73,47.24,61,48.08,61,49.12Z"></path> </g> <path d="M22.13,44h3.12a1.55,1.55,0,0,0,1.55-1.56V26.8a1.55,1.55,0,0,0-1.55-1.56H22.13a1.56,1.56,0,0,0-1.56,1.56V42.39A1.56,1.56,0,0,0,22.13,44Z"></path> <path d="M31.37,43.63h3.26A1.63,1.63,0,0,0,36.26,42V12.65A1.63,1.63,0,0,0,34.63,11H31.37a1.63,1.63,0,0,0-1.63,1.63V42A1.63,1.63,0,0,0,31.37,43.63Z"></path> <path d="M41.15,43.63h3.27A1.63,1.63,0,0,0,46.05,42V32.21a1.63,1.63,0,0,0-1.63-1.63H41.15a1.63,1.63,0,0,0-1.63,1.63V42A1.63,1.63,0,0,0,41.15,43.63Z"></path> <path d="M50.94,43.63H54.2A1.63,1.63,0,0,0,55.83,42V19.17a1.63,1.63,0,0,0-1.63-1.63H50.94a1.63,1.63,0,0,0-1.63,1.63V42A1.63,1.63,0,0,0,50.94,43.63Z"></path> </g></svg><span class="text-sm font-semibold">Charts/Vacancy</span></button>
+             </div>
+             <div class="mt-8 flex flex-col gap-2">
+             <div class="border w-full px-4 py-4">
+                <div class="flex items-center justify-evenly gap-2 ">
+                    <div class="flex items-center gap-2 px-4 py-4 w-[40%]">
+                        <i class="text-2xl fa-sharp fa-solid fa-bus"></i>
+                        <div class="flex relative">
+                        <input class="peer font-semibold text-2xl w-full outline-none" type="text" name="FromId" >
+                        <label class="absolute -top-6 text-gray-600 " for="FromId">From <i class="fa-solid fa-angle-down"></i></label>
+                    </div>
+                    </div>
+                    <div>
+                        <div class="w-full h-full px-3 py-3 flex items-center border border-slate-500 bg-white rounded-full text-xl">
+                        <i class="fa-solid fa-arrow-right-arrow-left  text-[#6B6B6B]"></i>
+                    </div>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-4 w-[40%]">
+                        <i class="text-2xl fa-sharp fa-solid fa-bus"></i>
+                        <div class="flex relative">
+                        <input class="peer font-semibold text-2xl w-full outline-none" type="text" name="ToId" p>
+                        <label class="absolute -top-6 text-gray-600 " for="ToId">To <i class="fa-solid fa-angle-down"></i></label>
+                    </div>
+                    </div>
+                </div>
+             </div>
+             <div class="border w-full px-4 py-4">
+                <div class="flex items-center justify-evenly gap-2 ">
+                    <div class="flex items-center gap-2 px-4 py-4 w-[40%]">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <div class="flex relative">
+                        <input class="peer font-semibold text-2xl w-full outline-none" type="text" name="DateId" >
+                        <label class="absolute -top-6 text-gray-600 " for="DateId">Date<i class="fa-solid fa-angle-down"></i></label>
+                    </div>
+                    </div>
+                    <div>
+                        <div class="w-full h-full px-3 py-3 flex items-center border border-slate-500 bg-white rounded-full text-xl">
+                        <i class="fa-solid fa-arrow-right-arrow-left  text-[#6B6B6B]"></i>
+                    </div>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-4 w-[40%]">
+                        <svg class="w-12 h-6" fill="#000000" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g opacity="0.2"> <rect x="48" y="48" width="64" height="64"></rect> </g> <g opacity="0.2"> <rect x="144" y="48" width="64" height="64"></rect> </g> <g opacity="0.2"> <rect x="48" y="144" width="64" height="64"></rect> </g> <g opacity="0.2"> <rect x="144" y="144" width="64" height="64"></rect> </g> <g> <path d="M208,136H144a8.00024,8.00024,0,0,0-8,8v64a8.00008,8.00008,0,0,0,8,8h64a8.00008,8.00008,0,0,0,8-8V144A8.00024,8.00024,0,0,0,208,136Zm-8,64H152V152h48Z"></path> <path d="M112,40H48a8.00024,8.00024,0,0,0-8,8v64a8.00024,8.00024,0,0,0,8,8h64a8.00024,8.00024,0,0,0,8-8V48A8.00024,8.00024,0,0,0,112,40Zm-8,64H56V56h48Z"></path> <path d="M208,40H144a8.00024,8.00024,0,0,0-8,8v64a8.00024,8.00024,0,0,0,8,8h64a8.00024,8.00024,0,0,0,8-8V48A8.00024,8.00024,0,0,0,208,40Zm-8,64H152V56h48Z"></path> <path d="M112,136H48a8.00024,8.00024,0,0,0-8,8v64a8.00008,8.00008,0,0,0,8,8h64a8.00008,8.00008,0,0,0,8-8V144A8.00024,8.00024,0,0,0,112,136Zm-8,64H56V152h48Z"></path> </g> </g></svg>
+                        <div class="flex relative">
+                        <input class="peer font-semibold text-2xl w-full outline-none" type="text" name="ToId" p>
+                        <label class="absolute -top-6 text-gray-600 " for="ToId">Seat Type<i class="fa-solid fa-angle-down"></i></label>
+                    </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="mt-10">
+                <button class="bg-green-500 text-white px-4 py-2 rounded font-semibold w-full flex items-center justify-center gap-2"><span>Search Bus</span>
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 4.29289C12.6834 3.90237 13.3166 3.90237 13.7071 4.29289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L13.7071 19.7071C13.3166 20.0976 12.6834 20.0976 12.2929 19.7071C11.9024 19.3166 11.9024 18.6834 12.2929 18.2929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L12.2929 5.70711C11.9024 5.31658 11.9024 4.68342 12.2929 4.29289Z" fill="#ffffff"></path> </g></svg></button>
+            </div>
+        </div>
+        <div class="h-screen overflow-hidden">
+            <img src="https://media.istockphoto.com/id/1278345107/photo/diesel-locomotives-india.jpg?s=2048x2048&w=is&k=20&c=-6xFnteOHSbRSFNylZ5Mp5CLwFai2vzuhH2nQDKlTpc=" alt="">
+            <!-- <img src="https://media.licdn.com/dms/image/D5612AQGonE6IZKlwcg/article-cover_image-shrink_600_2000/0/1703393862361?e=2147483647&v=beta&t=mj7fCYiAIl8no-LvjR7SPn76BT1sIrkSe2Ue-V1YNdc" alt=""> -->
+            <img src="https://media.istockphoto.com/id/1182269566/photo/train-metal-snake-into-scurve.jpg?s=2048x2048&w=is&k=20&c=gjdDhAUkhZKcHQx_dU_nsTH0uFuKGIx0I0kxmCfSZ8I=" alt="">
+        </div>
+    </div>
+ </body>
+ </html>

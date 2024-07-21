@@ -1,0 +1,60 @@
+<!-- Q4. A client of yours wants to add a pricing section on their website to showcase their newly introduced premium plans,
+
+You have to build the pricing section for their business. They have provided you with the figma design for the same. Link -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100">
+    <!-- card wrapper -->
+    <div class="flex justify-evenly flex-wrap gap-5 w-full h-[50vh] m-16">
+        <!-- card 1 -->
+        <div
+            class="bg-white p-4 md:p-6 rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] min-w-[20%] transition-shadow duration-300 ease-in-out  hover:shadow-none ">
+            <h3 class="text-3xl font-semibold font-semibold text-blue-900">Free Plan</h3>
+            <p class="text-l font-semibold text-gray-700 mb-4">For personal</p>
+            <span class="text-4xl">$0</span>
+            <ul class="flex flex-col justify-center mt-4">
+                <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>1 users</span></li>
+                <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>4 Web mails</span></li>
+                <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Responsive Website</span></li>
+                <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Free SSL</span></li>
+            </ul>
+        </div>
+        <!-- card 2 -->
+        <div
+        class="bg-blue-900 p-4 md:p-6 rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] min-w-[20%] transition-shadow duration-300 ease-in-out  hover:shadow-none ">
+        <h3 class="text-3xl font-semibold font-semibold text-white">Basic Plan</h3>
+        <p class="text-l font-semibold text-white mb-4">For small business</p>
+        <span class="text-4xl text-white">$49</span>
+        <ul class="flex flex-col justify-center mt-4">
+            <li class="flex items-center gap-2 font-semibold text-white"><i class="fa-sharp fa-solid fa-circle-check"></i><span>4 users</span></li>
+            <li class="flex items-center gap-2 font-semibold text-white"><i class="fa-sharp fa-solid fa-circle-check"></i><span>10 Web mails</span></li>
+            <li class="flex items-center gap-2 font-semibold text-white"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Responsive Website</span></li>
+            <li class="flex items-center gap-2 font-semibold text-white"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Free SSL</span></li>
+        </ul>
+    </div>
+        
+        <!-- card 3 -->
+        <div
+        class="bg-white p-4 md:p-6 rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] min-w-[20%] transition-shadow duration-300 ease-in-out  hover:shadow-none ">
+        <h3 class="text-3xl font-semibold font-semibold text-blue-900">Pro Plan</h3>
+        <p class="text-l font-semibold text-gray-700 mb-4">For enterprise </p>
+        <span class="text-4xl">$29</span>
+        <ul class="flex flex-col justify-center mt-4">
+            <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Unlimited users</span></li>
+            <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Unlimited Web mails</span></li>
+            <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Responsive Website</span></li>
+            <li class="flex items-center gap-2 font-semibold text-gray-700"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Free SSL + SEO</span></li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
